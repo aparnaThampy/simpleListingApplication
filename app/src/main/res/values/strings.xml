@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">sampleListingApp</string>
+    <string name="no_matach_found_search_text">No match found</string>
+</resources>
