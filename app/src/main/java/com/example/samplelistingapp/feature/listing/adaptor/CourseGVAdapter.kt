@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.feature.Listing.adaptor
+package com.example.samplelistingapp.feature.listing.adaptor
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.samplelistingapp.R
 import com.example.samplelistingapp.data.Content
 import com.example.samplelistingapp.databinding.ItemCardLytBinding
-import com.example.samplelistingapp.feature.Listing.viewHolder.CardItemViewHolder
+import com.example.samplelistingapp.feature.listing.viewHolder.CardItemViewHolder
 
 
 class CourseGVAdapter(var courseModelArrayList: List<Content> = listOf()) :

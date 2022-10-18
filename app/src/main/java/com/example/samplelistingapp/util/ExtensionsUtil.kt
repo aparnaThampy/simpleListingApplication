@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.utility
+package com.example.samplelistingapp.util
 
 import android.content.res.Configuration
 import android.widget.ImageView

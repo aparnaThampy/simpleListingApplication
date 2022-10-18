@@ -2,7 +2,7 @@ package com.example.samplelistingapp.repository
 
 import android.content.Context
 import com.example.samplelistingapp.data.Page
-import com.example.samplelistingapp.utility.util.loadJSONFromAsset
+import com.example.samplelistingapp.util.util.loadJSONFromAsset
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.SampleListingApp"
         tools:targetApi="31" >
         <activity
-            android:name=".feature.Listing.ui.ListingActivity"
+            android:name=".feature.listing.ui.ListingActivity"
             android:theme="@style/Theme.App.Starting"
             android:exported="true" >
             <intent-filter>

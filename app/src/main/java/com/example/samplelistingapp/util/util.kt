@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.utility
+package com.example.samplelistingapp.util
 
 import android.content.Context
 import android.content.res.AssetManager

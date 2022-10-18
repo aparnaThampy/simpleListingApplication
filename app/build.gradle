@@ -66,16 +66,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutinesVersion"
-
-    //Retrofit
-    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.okhttp3:logging-interceptor:4.9.1"
-    implementation "com.squareup.retrofit2:converter-scalars:$retrofitVersion"
-
-    //material design
-    implementation 'com.google.android.material:material:1.6.1'
-
+    
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
@@ -92,9 +83,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     //gson
     implementation 'com.google.code.gson:gson:2.8.6'
-
-    def lottieVersion = "3.4.0"
-    implementation "com.airbnb.android:lottie:$lottieVersion"
 
     implementation 'androidx.core:core-splashscreen:1.0.0'
 

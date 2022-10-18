@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
-        <import type="com.example.samplelistingapp.utility.ExtensionsUtil"/>
+        <import type="com.example.samplelistingapp.util.ExtensionsUtil"/>
         <variable
             name="itemModel"
             type="com.example.samplelistingapp.data.Content" />

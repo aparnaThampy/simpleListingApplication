@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.feature.Listing.viewHolder
+package com.example.samplelistingapp.feature.listing.viewHolder
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.samplelistingapp.data.Content

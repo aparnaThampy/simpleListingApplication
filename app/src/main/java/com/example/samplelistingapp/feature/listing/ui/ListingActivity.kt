@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.feature.Listing.ui
+package com.example.samplelistingapp.feature.listing.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

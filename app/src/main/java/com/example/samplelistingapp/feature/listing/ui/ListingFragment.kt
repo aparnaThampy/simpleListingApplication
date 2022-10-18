@@ -1,4 +1,4 @@
-package com.example.samplelistingapp.feature.Listing.ui
+package com.example.samplelistingapp.feature.listing.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,10 +9,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.samplelistingapp.R
-import com.example.samplelistingapp.feature.Listing.ListingViewModel
-import com.example.samplelistingapp.feature.Listing.adaptor.CourseGVAdapter
-import com.example.samplelistingapp.utility.ExtensionsUtil.gridManager
-import com.example.samplelistingapp.utility.util.showToast
+import com.example.samplelistingapp.feature.listing.ListingViewModel
+import com.example.samplelistingapp.feature.listing.adaptor.CourseGVAdapter
+import com.example.samplelistingapp.util.ExtensionsUtil.gridManager
+import com.example.samplelistingapp.util.util.showToast
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_main.*
 
@@ -38,7 +38,7 @@ class ListingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initView()
         initObserver()
-        viewModel.getList(context)
+        viewModel.getList()
     }
 
     private fun initView() {
